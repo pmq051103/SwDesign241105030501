@@ -25,7 +25,7 @@ Lý do: Hệ thống mới cần tích hợp và truy xuất thông tin từ cơ
 -	Security (Bảo mật):
 Lý do: Hệ thống phải đảm bảo rằng chỉ nhân viên có quyền mới có thể xem và chỉnh sửa dữ liệu cá nhân của họ. Ngoài ra, cần ngăn chặn truy cập trái phép để bảo vệ thông tin nhạy cảm về nhân viên và tiền lương. Bảo mật giúp duy trì quyền riêng tư, tuân thủ các yêu cầu bảo mật nội bộ và tránh các rủi ro về truy cập trái phép.
   #3.	Phân tích ca sử dụng payment : <br>
-
+## 3. Phân tích ca sử dụng Payment :<br>
 ### 3.1.	Lớp phân tích :<br>
 -	Boundary: PaymentForm, ProjectManagementDatabase 
 -	Control: PaymentController 
