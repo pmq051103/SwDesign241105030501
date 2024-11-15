@@ -48,3 +48,60 @@
   - getProjectInformation(projectID): Lấy thông tin về một dự án dựa trên projectID.
   - getChargeNumberInformation(chargeNumber): Lấy thông tin về một mã tính phí dựa trên chargeNumber. Interface này đóng vai trò lớp trừu tượng, che giấu chi tiết về cơ sở dữ liệu (DB2 trên IBM mainframe) và cách thức truy cập dữ liệu.
 ## 2. Analysis class to design element map
+| Analysis Class | Design Element |
+|---|---|
+| LoginForm | LoginForm |
+| PaymentForm | PaymentForm | 
+| Timecard Form | TimecardForm |
+| Maintain TimecardForm |  MainEmployeeForm <br> TimecardForm | 
+| CreateEmployeeForm | EmployeeForm |
+| SelectFunctionForm | MainForm/Dashboard |
+| CreateForm, UpdateForm |  EmployeeForm | 
+| AddEmployeeForm, UpdateEmployeeForm | EmployeeForm |
+| AdministrativeReportForm | ReportForm |
+| PayrollUI | PayrollDashboard/PayrollProcessingForm |
+| TimecardController | TimecardController |
+| PaymentController | PaymentController |
+| EmployeeController | EmployeeController |
+| SelectFunctionController | MenuController/NavigationController |
+| CreateController, UpdateController, DeleteController | EmployeeController |
+| AddEmployeeController, UpdateEmployeeController, DeleteEmployeeController | EmployeeController | 
+| LoginController | AuthenticationController/SecurityController |
+| AdministrativeReportController | ReportController |
+| PayrollController | PayrollController |
+| SystemClockInterface | SystemClockInterface |
+| ProjectManagementDatabase | IProjectManagementDatabase |
+| Employee | Employee |
+| TimeCard | Timecard |
+| PurchaseOrder | PurchaseOrder |
+| User | User |
+| Report | Report |
+| Printer | PrinterService |
+| BankSystem | BankService |
+
+## 3.Design element to owning package map
+| Design Element | "Owning" Package |
+|---|---|
+| LoginForm | Middleware::Security::GUI Framework |
+| MainEmployeeForm | Applications::Employee Activities |
+| TimecardForm | Applications::Employee Activities |
+| MainApplicationForm | Middleware::Security::GUI Framework |
+| TimecardController | Applications::Employee Activities |
+| SystemClockInterface | Applications::Payroll |
+| PayrollController | Applications::Payroll |
+| Paycheck | Business Services::Payroll Artifacts |
+| PaymentForm | Applications::Payroll::GUI |
+| EmployeeForm | Applications::Employee Activities::GUI |
+| MainForm/Dashboard | Applications::Common::GUI |
+| MenuController/NavigationController | Applications::Common |
+| EmployeeController | Applications::Employee Activities |
+| PurchaseOrder | Business Services::Sales Artifacts |
+| AuthenticationController/SecurityController | Middleware::Security |
+| User | Business Services::Security |
+| ReportForm | Applications::Reporting::GUI |
+| ReportController | Applications::Reporting |
+| Report | Business Services::Reporting Artifacts |
+| PayrollDashboard/PayrollProcessingForm | Applications::Payroll::GUI |
+| PrinterService | Infrastructure::Printing |
+| BankService | Infrastructure::Banking |
+| IProjectManagementDatabase | Interfaces::ProjectManagement | 
