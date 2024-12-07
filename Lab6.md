@@ -1,4 +1,3 @@
-# Kết quả Lab 6: Thiết kế các lớp
 ## 1. Use case Login:
 ### 1.1 Xác định các lớp và các operations:
 ![Diagram](https://www.planttext.com/api/plantuml/png/b5FBQiCm4BphAtHq8Fa17qhIdWej14nw5_9YYyXIs9LSIkcNzT1FwYzKLkHKTjn0VV1hPcTdP-tlpwyjEO7ETvhHKHcEbe19BOZuassKUR36eTKQaByp7evMc5f3n0fFW4PqKFBAeJBDcfz2uQl5UdopAlczjHg4cHPRxug0zLRLx8EbXZllMZ1EIU6KDHLWhoIajk8NW__tHI1m-yIvAhyoKW5HSF0iZ6WkWqk4q3j1KQFaXt1UZJAHfKmljAep9fslZ_MyNQJJoq2_nHtdoDn9ZygzxQGCzCjQwFoSELiFSrkF4cx93Smaqe0xf6oAwLXD5jyKoODTsC8OxFnZscpk_jXtoSC4n9R1eImQ3iefPrhKdgsmv5sy8pO3Ca5o5YDX4cz6a2t88_4JOAUY2B4jc7huTtu0003__mC0)
